@@ -1,0 +1,14 @@
+logging:
+  file:
+    path: logs/sfntly-api.log
+  level:
+    com.github.classyex.sfntlyapi: INFO
+    org.springframework.web: INFO
+
+
+global:
+  # 上传目录
+  uploadPath: "/tmp"
+  requestPrefix: http://q2yx2b.natappfree.cc
+  #是否开启定时任务
+  enableTask: true

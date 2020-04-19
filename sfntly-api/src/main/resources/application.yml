@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+  servlet:
+    context-path: /sfntly/api
